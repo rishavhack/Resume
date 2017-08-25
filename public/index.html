@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+	<link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
+	<link rel="stylesheet" href="myStyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="bootstrap\js\bootstrap.min.js"></script>
+	<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBZbQser4dR0cG0g2wwoMcFkvcECPj3fAo",
+    authDomain: "resume-168be.firebaseapp.com",
+    databaseURL: "https://resume-168be.firebaseio.com",
+    projectId: "resume-168be",
+    storageBucket: "resume-168be.appspot.com",
+    messagingSenderId: "842017440481"
+  };
+  firebase.initializeApp(config);
+</script>
+</head>
+<body>
+<div id="section1">
+	<div class="contain">
+		<img src="candi.jpg" class="img-circle" alt="Profile Photo" width="304" height="236" style="margin-top: 35px;">
+	<div class="title">	
+		<h3>Hi! I'm Sapna Srivastava.You can call me saansein.  </h3>
+		<h4>I ♥ to Code & Make cool stuff.</h4>
+	</div>
+	<div>
+	 <ul class="list-inline">
+  		<li data-toggle="tooltip" data-placement="bottom" title="Twitter!"> <a href="#" ><i class="fa fa-twitter"></i></a></li>
+  		<li data-toggle="tooltip" data-placement="bottom" title="GitHub!"> <a href="#" ><i class="fa fa-github"></i></a></li>
+  		<li data-toggle="tooltip" data-placement="bottom" title="Angel-List!"> <a href="#" ><i class="fa fa-angellist"></i></a></li>
+  		<li  data-toggle="tooltip" data-placement="bottom" title="Linkedin!"> <a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+  		<li data-toggle="tooltip" data-placement="bottom" title="Email!"> <a href="#" ><i class="fa fa-mail-forward"></i></a></li>
+     </ul>
+	</div>
+</div>
+</div>
+<div id="section2">
+	<div class="contain">
+		<div>
+			<i class="fa fa-meh-o" style="font-size: 88px;color: blue;"></i>
+			<h3>I'm a 4th year student pursuing</h3>
+			<h3>B.Tech. in Computer Science from </h3>
+			<h3><a href="https://aryacollege.org" target="_blank">ARYA Institute of Engineering & Technology</a>,Jaipur</h3>
+		</div>
+		<div>
+			<i class="fa fa-home" style="font-size: 88px;color: blue;"></i>
+			<h3>Brahmpura,PO-MIT</h3>
+			<h3>Muzaffarpur</h3>
+		</div>
+		<div>
+			<i class="fa fa-keyboard-o" style="font-size: 88px;color: blue;"></i>
+			<h3>I'm a Full Stack Developer in MEAN Stack</h3>
+			<h3>Who loves to learn and try new tools & technologies</h3>
+		</div>
+	</div>
+</div>
+<div id="section3">
+	<div class="contain">
+		<h1 style="color: white;font-size: 42px;padding: 189px;">Technical Skills</h1>
+	</div>
+</div>
+<div id="section4" style="margin-top: 10px;">
+	<div class="contain">
+		<i class="fa fa-desktop" style="font-size: 88px;color: blue;"></i>
+		<h3>Frameworks & Tools:</h3>
+	</div>
+</div>
+</body>
+</html>

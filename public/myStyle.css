@@ -1,0 +1,57 @@
+#section1
+{
+	background-image: url("mac-desk.jpg");
+
+    /* Set a specific height */
+    height: 650px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section3
+{
+	background-image: url("code-screen.jpg");
+
+    /* Set a specific height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contain
+{
+	text-align: center;
+}
+.title
+{
+	    color: white;
+    font-family: cursive;
+}
+.list-group li
+{
+	background: transparent;
+    border: transparent;
+    float: left;
+}
+
+.list-inline li
+{
+	    margin-top: 20px;
+    width: 80px;
+    border-radius: 16px;
+	border: 12px solid transparent;
+    background: whitesmoke;
+    padding: 2px;
+    cursor: pointer;
+}
+.list-inline li a
+{
+	color: black;
+	    font-size: 25px;
+}
